@@ -197,7 +197,7 @@ class EmailMotionReleaseView(RoleColumnMixin, RoundTemplateEmailCreateView):
 class BaseMotionStatisticsView(TournamentMixin, TemplateView):
 
     template_name = 'motion_statistics.html'
-    page_title = gettext_lazy("Motion Statistics")
+    page_title = gettext_lazy("Motion Statisticssss")
     page_emoji = '💭'
 
     def get_context_data(self, **kwargs):
